@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCCRUDDBModelStoreContainer" CdmEntityContainer="MVCCRUDDBEntities">
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="MVCCRUDDBModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="StudentdName" ColumnName="StudentdName" />
+          <ScalarProperty Name="StudentdAge" ColumnName="StudentdAge" />
+          <ScalarProperty Name="StudentdCity" ColumnName="StudentdCity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
